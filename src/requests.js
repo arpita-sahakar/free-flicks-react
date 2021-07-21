@@ -1,7 +1,7 @@
-const API_KEY = c933106e9b3cd06ce9cea85a85b541d5;
+// const API_KEY = c933106e9b3cd06ce9cea85a85b541d5;
 
 const requests = {
-    trending: `https://api.themoviedb.org/3/movie/550?api_key=${API_KEY}`,
+    trending: "https://api.themoviedb.org/3/movie/550?api_key=c933106e9b3cd06ce9cea85a85b541d5",
 
     netflixOriginals: `https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_networks=213`,
 
