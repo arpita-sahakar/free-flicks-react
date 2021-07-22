@@ -1,6 +1,5 @@
 const API_KEY = "c933106e9b3cd06ce9cea85a85b541d5";
-
-const requests = {
+const items = {
     trending: `https://api.themoviedb.org/3/movie/550?api_key=${API_KEY}`,
 
     netflixOriginals: `https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_networks=213`,
@@ -16,6 +15,9 @@ const requests = {
     romantic: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=10749`,
 
     documentries: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=99`,
-}
+  }
 
-export default requests;
+  Object.entries(items).map(item => {
+    console.log(item[0])
+    <Row title="NETFLIX ORIGINALS" fetchUrl={requests.netflixOriginals}/>
+  })
