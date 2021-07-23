@@ -29,9 +29,10 @@ function Banner({ netflixOriginalsUrl }) {
                     <button className="banner_button">Play</button>
                     <button className="banner_button">My List</button>
                 </div>
-                <h1 className="banner_description">{truncate(movie.overview,100)}</h1>
+                <h1 className="banner_description">{truncate(movie.overview,500)}</h1>
 
             </div>
+            <div className="banner_fadeBottom"></div>
         </header>
     )
 }

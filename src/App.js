@@ -5,7 +5,6 @@ import Banner from "./container/Banner.jsx";
 import NavBar from './container/NavBar';
 
 
-
 function App() {
   return (
     <div className="app">
@@ -17,7 +16,7 @@ function App() {
       <Row title="Action Movies" fetchUrl={requests.action} />
       <Row title="Comedy Movies" fetchUrl={requests.comedy} />
       <Row title="Horror Movies" fetchUrl={requests.horror} />
-      <Row title="Romantic Movies" fetchUrl={requests.topRromanticated} />
+      {/* <Row title="Romantic Movies" fetchUrl={requests.topRromanticated} /> */}
       <Row title="Documentries" fetchUrl={requests.documentries} />
     </div>
   );

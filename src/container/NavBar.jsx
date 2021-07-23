@@ -1,10 +1,11 @@
 import React from 'react';
-import { useEffect, useState } from "react";
+import "./NavBar.css";
+import logo from "../logo1.png";
 
 function NavBar() {
     return (
-        <div>
-            hello
+        <div className="nav">
+            <img className="NavLogo" src={logo}/>
         </div>
     )
 }

@@ -1,0 +1,13 @@
+.nav{
+    position: fixed;
+    top : 0;
+    padding : 20px;
+
+
+
+}
+
+.NavLogo{
+    width :80px;
+    object-fit: contain;
+  }
